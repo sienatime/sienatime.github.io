@@ -1,7 +1,153 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Staatliches" rel="stylesheet">
+
+    <style type="text/css">
+      h1, h2 {
+        font-family: 'Staatliches', cursive;
+        margin-top: 0;
+      }
+
+      p {
+        margin-top: 0;
+      }
+
+      body {
+        font-family: 'Oxygen', sans-serif;
+        display: flex;
+        justify-content: center;
+        margin: 48px 0;
+      }
+
+      aside #headshot {
+        width: 400px;
+        height: 400px;
+      }
+
+      aside {
+        margin-right: 96px;
+      }
+
+      section {
+        max-width: 512px;
+        flex-direction: column;
+      }
+
+      h1 {
+        font-size: 48px;
+        margin-bottom: 16px;
+      }
+
+      h2 {
+        margin-top: 32px;
+      }
+
+      a {
+        color: #0EB7DE;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      #icons {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+      }
+
+      #icons img {
+        width: 48px;
+        height: 48px;
+      }
+
+      #icons a {
+        margin-right: 16px;
+      }
+
+      #icons a:last-child {
+        margin-right: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <aside>
+      <img src="images/siena.png" id="headshot" />
+
+      <section id="icons">
+        <a href="https://www.twitter.com/sienatime" target="_blank"><img src="images/icons_twitter.png" /></a>
+        <a href="https://www.github.com/sienatime" target="_blank"><img src="images/icons_github.png" /></a>
+        <a href="https://www.linkedin.com/in/sienaaguayo" target="_blank"><img src="images/icons_linkedin.png" /></a>
+      </section>
+    </aside>
+
+    <section>
+      <h1>Siena Aguayo</h1>
+
+      <p>Talks at techincal conferences, presented in reverse chronological order.</p>
+
+      <h2>Don't reset --hard: Strategies for Tackling Large Refactors</h2>
+      <p>How many times have you started an ambitious refactor only to get lost and end up doing a git reset --hard? Android
+        libraries are updated constantly, sometimes with breaking changes, and it can be tough to keep up. Maybe you want to
+        try
+        several new technologies at once as part of your refactor. This talk will teach you some techniques for refactoring
+        your
+        code in a way that makes you not get so overwhelmed that you have to start over. <a
+          href="https://speakerdeck.com/sienatime/dont-reset-hard-strategies-for-tackling-large-refactors"
+          target="_blank">View
+          slides</a></p>
+
+      <ul>
+        <li>May 10th, 2018, <a href="https://craft-conf.com/" target="_blank">CRAFT Conference</a>, Budapest, Hungary (<a
+            href="https://www.ustream.tv/recorded/114914777" target="_blank">Video</a>)</li>
+        <li>April 11th, 2017, <a href="http://www.droidcon-boston.com/" target="_blank">Droidcon Boston</a>, Boston, MA,
+          United States (<a href="https://slideslive.com/38900616/dont-reset-hard-strategies-for-tackling-large-refactors"
+            target="_blank">Video</a>)</li>
+        <li>March 9th, 2017, <a href="https://droidkaigi.github.io/" target="_blank">DroidKaigi</a>, Tokyo, Japan</li>
+      </ul>
+
+      <h2>Fearless Internationalization and Localization Across the Nations</h2>
+      <p>Many people are intimidated by localization (l10n) and internationalization (i18n) but they don’t have to
+        be—Android
+        provides many tools out of the box to aide you in global domination. Learn what to watch out for while coding your
+        app
+        that will make your life easier once you receive localized content. We’ll cover alternate resources, strings files,
+        date
+        and number formatters and other tips from Android Studio, Google, and third parties that will turn you into an i18n
+        and
+        l10n champion. <a
+          href="https://speakerdeck.com/sienatime/fearless-internationalization-and-localization-across-the-nations"
+          target="_blank">View
+          slides</a></p>
+
+      <ul>
+        <li>February 19th, 2016, <a href="https://droidkaigi.github.io/" target="_blank">DroidKaigi</a>, Tokyo, Japan (<a
+            href="https://www.youtube.com/watch?v=e4RCTgZq2Cs" target="_blank">Video</a>)</li>
+        <li>September 22nd, 2015, <a href="http://www.meetup.com/bayareaandroid/" target="_blank">Bay Area Android Developer
+            Meetup</a>, San Francisco, CA, United States (<a href="https://realm.io/news/siena-aguayo-android-localization/"
+            target="_blank">Video</a>)</li>
+        <li>June 27th, 2015, <a href="http://droidcon.nyc" target="_blank">Droidcon NYC</a>, New York, NY, United States (<a
+            href="https://www.youtube.com/watch?v=Z51wN9wCao0" target="_blank">Video</a>)</li>
+      </ul>
+
+      <h2>Gotta Persist 'Em All: Realm as Replacement for SQLite</h2>
+      <p>Realm is a new player on mobile database scene, and acts as a replacement for SQLite on Android and Core Data on
+        iOS by
+        providing a database and an easy-to-use object-relational mapping-like (ORM) interface. Learn how to use it in your
+        own
+        projects and how it compares to working with SQLite in a beginner-friendly sample app with Pokémon. <a
+          href="https://speakerdeck.com/sienatime/gotta-persist-em-all-realm-as-replacement-for-sqlite" target="_blank">View
+          slides</a></p>
+
+      <ul>
+        <li>May 5th, 2016, <a href="http://www.meetup.com/realm-sf/" target="_blank">Realm Meetup</a>, San Francisco, CA,
+          United States</li>
+        <li>April 10th, 2015, <a href="http://www.droidcon.ca/" target="_blank">Droidcon Montreal</a>, Montreal, Canada</li>
+      </ul>
+    </section>
+  </body>
 </html>
